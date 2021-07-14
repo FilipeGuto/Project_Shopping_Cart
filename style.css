@@ -28,10 +28,11 @@
   flex-basis: 70%;
   flex-wrap: wrap;
   justify-content: center;
+  text-decoration: none;
 }
 
 .item {
-  border: 2px solid blue;
+  border: 2px solid black;
   border-radius: 5px;
   box-sizing: border-box;
   display: flex;
@@ -39,6 +40,7 @@
   height: auto;
   margin: 5px;
   width: 200px;
+  text-decoration: none;
 }
 
 .item .item__sku {
@@ -56,7 +58,7 @@
 }
 
 .item .item__add {
-  background-color: green;
+  background-color: #6495ED;
   border: 0;
   cursor: pointer;
   margin: 0;
